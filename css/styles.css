@@ -1,0 +1,557 @@
+body {
+    margin: 0px;
+}
+
+.contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: #004e72;
+    margin: 0px;
+    overflow: auto;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+    overflow: auto;
+}
+
+p {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    clear: both;
+    margin: 0px;
+    overflow: auto;
+}
+
+
+/*----------
+header
+----------*/
+
+header {}
+
+.subcontenedor {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.submenu-desktop {
+    display: block;
+}
+
+.subcontenedor-movil {
+    display: none;
+}
+
+.top-bar {
+    background-color: #004f70;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+}
+
+.subcontenedor-1 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.logo {
+    float: left;
+}
+
+.iconohome {
+    float: left;
+    padding-top: 10px;
+}
+
+.textologo {
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+/*------- MENU ----------*/
+
+.menu {
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+#navigation {
+    margin-top: 15px
+}
+
+#navigation ul ul li {
+    float: none;
+    width: 150px
+}
+
+#navigation ul ul a {
+    line-height: 120%;
+    padding: 10px 15px
+}
+
+#navigation ul ul ul {
+    top: 0;
+    left: 100%
+}
+
+#navigation ul li:hover > ul {
+    display: block;
+}
+
+#navigation ul li:hover > div {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+.menu ul a {
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    padding: 0 15px;
+    color: #6a98ce;
+}
+
+.menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #6a98ce;
+    font-weight: bold;
+}
+
+.menu ul li:hover {}
+
+.menu ul li.current a {
+    color: #FFF;
+}
+
+ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #004f70;
+    padding: 0;
+    margin-top: 8px;
+    right: 12px;
+}
+
+ul.submenu-hover {
+    background-color: #002f43;
+}
+
+ul.submenu-hover li:hover {
+    background-color: #004f70;
+}
+
+.dropdown__wrap ul li {
+    border-bottom: solid 1px #FFF;
+}
+
+.dropdown__wrap ul li:last-child {
+    border-bottom: none;
+}
+
+.triangulo_sup {
+    display: none;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #004f70;
+    position: absolute;
+    right: 51px;
+}
+
+
+/*--- menu móvil ----- */
+
+.menu-movil-toggled {
+    width: 100%;
+    background-color: #004f70;
+    min-height: 50px;
+    margin: 0 auto;
+    display: none;
+}
+
+.subcontenedor-movil {
+    width: 100%
+}
+
+.menu-movil-controles {
+    width: 100%
+}
+
+.menu-movil-titulo {
+    float: left;
+    padding-left: 15px;
+}
+
+.menu-movil-boton {
+    float: right;
+    color: #FFF;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.subcontenedor-movil {
+    /*display: none;*/
+}
+
+#navegacion-movil {
+    display: none;
+}
+
+#navegacion-movil ul {
+    list-style: none;
+    display: inline-table;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding-left: 0px;
+}
+
+#navegacion-movil ul li {
+    background-color: #002f43;
+    border-bottom: 1px solid #FFF;
+}
+
+#navegacion-movil ul li:last-child {
+    border-bottom: none;
+}
+
+#navegacion-movil ul li.menumobil-li-muestra {
+    display: block;
+}
+
+#navegacion-movil ul li.menumobil-li-esconde {
+    display: none;
+}
+
+#navegacion-movil ul li ul {
+    display: none;
+}
+
+#navegacion-movil ul li ul.menumobil-subcategoria-muestra {
+    display: block;
+}
+
+#navegacion-movil ul li a.esconder-cabecera {
+    display: none;
+}
+
+#navegacion-movil ul a {
+    text-decoration: none;
+    color: #6a98ce;
+    font-weight: 600;
+    display: block;
+    padding: 15px 15px;
+    font-weight: 600;
+}
+.has-submenu:after {
+    font-family: FontAwesome;
+    content: "\f061";
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    right: 15px;
+    font-size: 20px;
+    float: right;
+}
+
+.totalanunciotop {
+    clear: both;
+    width: 100%;
+}
+
+.imggrande {
+    height: 400px;
+}
+
+.subcontenedor-2 {}
+
+.claim {
+    margin-left: 15px;
+    position: absolute;
+    top: -260px;
+}
+
+.cuadrotituloinicio {
+    width: 450px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.titulo {
+    color: black;
+    margin: 0px;
+    text-shadow: 1px 1px white;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    padding-top: 15px;
+    text-shadow: 1px 1px white;
+}
+
+.calltoaction {
+    background-color: #009bdb;
+    width: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*------------
+keybenefits
+------------*/
+
+.keybenefits {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.cuadroideas {
+    float: left;
+    background-color: #009bdb;
+    margin-right: 15px;
+    width: 270px;
+}
+
+.contenidoideas {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.iconobenefits {
+    position: absolute;
+    padding-top: 20px;
+}
+
+.textobenefits {
+    text-align: center;
+}
+
+.titulobenefits {
+    width: 100%;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.subtitulobenefits {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cuadropromociones {
+    float: left;
+    background-color: #0088c1;
+    margin-left: 15px;
+    width: 550px;
+}
+
+.contenidopromociones {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+
+/*---------
+mobile
+---------*/
+
+.mobiledevices {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.textopublicaciones {
+    float: left;
+    width: 340px;
+    padding-top: 20px;
+}
+
+.subtitulogrande {
+    font-size: 24px;
+    color: #004e72;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.botonespublicaciones {}
+
+.appstore {
+    float: left;
+    padding-right: 10px;
+}
+
+.googleplay {
+    float: left;
+    padding-left: 10px;
+}
+
+.imgpeque {
+    float: right;
+}
+
+
+/*---------
+decora
+---------*/
+
+.totaldecora {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    clear: both;
+}
+
+.imggrande2 {
+    height: 290px;
+}
+
+.subcontenedor-3 {
+    position: relative;
+}
+
+.totalbotondecora {
+    position: absolute;
+    top: -170px;
+    margin-left: 200px;
+}
+
+.cuadrodecora {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 380px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textodecora {
+    color: white;
+    text-align: center;
+}
+
+
+/*---------
+testimonials
+---------*/
+
+.testimonios {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.textotestimonios {
+    padding-top: 100px;
+    float: left;
+    padding-right: 60px;
+    width: 400px;
+}
+
+blockquote {
+    font-size: 24px;
+    color: #004e72;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+span {
+    font-size: 24px;
+    color: #004f70;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+/*---------
+footer
+---------*/
+
+footer {
+    background-color: #004f70;
+    width: 100%;
+    clear: both;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.textofooter {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/*---------
+dropdown
+---------*/
+
+.top-bar {
+    overflow: visible;
+}
+
+.subcontenedor-1 {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 861px) {
+    .subcontenedor-movil {
+        display: block;
+    }
+    .submenu-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #navegacion-movil ul a {
+        font-size: 34px;
+    }
+}
