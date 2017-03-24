@@ -1,1 +1,1 @@
-# decomag
+# RunRoom - DecoMag - Uri Sànchez Miró
